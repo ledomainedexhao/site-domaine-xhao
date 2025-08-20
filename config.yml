@@ -1,0 +1,43 @@
+
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "home"
+    label: "Accueil"
+    files:
+      - label: "Contenu Accueil"
+        name: "home"
+        file: "content/home.json"
+        fields:
+          - { label: "Titre principal", name: "hero_title", widget: "string" }
+          - { label: "Sous-titre", name: "hero_subtitle", widget: "string" }
+          - { label: "Afficher Xelena", name: "show_xelena", widget: "boolean" }
+          - { label: "Titre fiche Xelena", name: "xelena_card_title", widget: "string" }
+
+  - name: "chiens"
+    label: "Chiens"
+    folder: "content/chiens"
+    create: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    fields:
+      - { label: "Nom", name: "title", widget: "string" }
+      - { label: "Date de naissance", name: "naissance", widget: "string" }
+      - { label: "LOSH", name: "losh", widget: "string" }
+      - { label: "Identification", name: "identification", widget: "string" }
+      - { label: "Éleveuse", name: "eleveuse", widget: "string" }
+      - { label: "Santé", name: "sante", widget: "string" }
+      - { label: "Queue", name: "queue", widget: "string" }
+      - label: "Pedigree"
+        name: "pedigree"
+        widget: "list"
+        fields:
+          - {label: "Parents", name: "parents", widget: "string"}
+          - {label: "Grands-parents", name: "grands_parents", widget: "string"}
+          - {label: "Arrière-grands-parents", name: "arrieres_grands_parents", widget: "string"}
