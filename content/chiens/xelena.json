@@ -1,0 +1,50 @@
+{
+  "naissance": "19/03/2022",
+  "losh": "1387042",
+  "identification": "981000086488233",
+  "eleveuse": "Domaine Rosaris (Rosé Marie)",
+  "sante": "Parents ADN certifiés — tests santé FULL",
+  "queue": "entière",
+  "pedigree": [
+    {
+      "parents": "Hubert du Berceau des Loups-Anges (SIRE)",
+      "grands_parents": "T’Apachebull Gladiator",
+      "arrieres_grands_parents": "Oscar des Fils de Bacchus"
+    },
+    {
+      "parents": "",
+      "grands_parents": "T’Apachebull Gladiator",
+      "arrieres_grands_parents": "Infinity Power Louca Marie de Golden"
+    },
+    {
+      "parents": "",
+      "grands_parents": "Nouchka Queen du Domaine Rosaris",
+      "arrieres_grands_parents": "Oscar des Fils de Bacchus"
+    },
+    {
+      "parents": "",
+      "grands_parents": "Nouchka Queen du Domaine Rosaris",
+      "arrieres_grands_parents": "Infinity Power Louca Marie de Golden"
+    },
+    {
+      "parents": "Typique du Domaine Rosaris (DAM)",
+      "grands_parents": "Otan Spécial du Territoire de Fontfroide",
+      "arrieres_grands_parents": "Infini de la Légende de Rome"
+    },
+    {
+      "parents": "",
+      "grands_parents": "Otan Spécial du Territoire de Fontfroide",
+      "arrieres_grands_parents": "Quaroline des Perles Rares"
+    },
+    {
+      "parents": "",
+      "grands_parents": "Nouchka Queen du Domaine Rosaris",
+      "arrieres_grands_parents": "Oscar des Fils de Bacchus"
+    },
+    {
+      "parents": "",
+      "grands_parents": "Nouchka Queen du Domaine Rosaris",
+      "arrieres_grands_parents": "Infinity Power Louca Marie de Golden"
+    }
+  ]
+}
